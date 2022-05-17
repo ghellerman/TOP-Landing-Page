@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+.container {
+    flex: 1 1 auto;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -9,7 +13,7 @@ nav {
 
 .navbar {
     display: flex;
-    flex: 1 1 auto;
+
 }
 
 .logo {
@@ -26,3 +30,33 @@ nav > ul {
     align-items: center;
     font-size: 0.8rem;
 }
+
+.header-content {
+    display: flex;
+    flex: 1 1 auto;
+    height: 300px;
+    background: gray;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 5rem;
+}
+
+.header-content-left,
+.header-content-right {
+    
+}
+
+.header-content-left {
+    background: white;
+}
+
+.header-content-right {
+    background: white;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
